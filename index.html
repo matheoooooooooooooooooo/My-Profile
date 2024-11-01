@@ -1,43 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  	<link rel="stylesheet" href="style.css">
-    <title>mon profil avec le wagon</title>
-  
-    <meta charset="utf-8">
-    <link href="style.css" rel="stylesheet">
-  </head>
-    <body>
-   <div class="container">
-	<div class="card-white"></div> 
-    	 </div>
-  	<h1><ul>Salut, c'est Mathéo 👋</h1>
-  	<img src="data:image/jpeg;base64,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" width="80px" alt="Mathéo Godard" class="img-circle" width="100px" alt="Mathéo">  </ul>
-<p> 
-	<h2><ul> mes réseaux: <i class="fa-solid fa-user"></i></h2> <a href="https://www.linkedin.com/in/math%C3%A9o-godard-durand-b35b45332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"class="btn-blue">Mon linkedin</a></ul>
-
-
-</p>
-<p><a ><h2><ul>Bonjour, je suis Mathéo, un étudiant de 18 ans à l'ieseg Lille.</a></p></h2></ul>
-
-<p><h2> J'adore coder depuis mon plus jeune âge et je suis un fanatique d'informatique.</p></h2>
-<h3><ul>Mais j'aime par dessus tout le sport :</ul>
-<li>course à pied</li>
-<li>cyclisme</li>
-<li>skateboard</li>
-<li>danser sous la douche </li></h3>
-
-
-
-	<div class="card-design" >
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Profil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-white"></div>
     </div>
-    <div class="card-design" >
-    </div>
-    <div class="card-design" >
-    </div>
-    <div class="card-design" >
-    </div>
-   </body>
+    <h1>Salut, c'est Mathéo 👋</h1>
+    <img src="data:image/jpeg;base64,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" width="100" alt="Mathéo Godard" class="img-circle">
+    
+    <h2>Mes réseaux:</h2>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/math%C3%A9o-godard-durand-b35b45332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="btn-blue">Mon LinkedIn</a></li>
+    </ul>
 
+    <h2>Bonjour, je suis Mathéo, un étudiant de 18 ans à l'IeSeg Lille.</h2>
+    <p>J'adore coder depuis mon plus jeune âge et je suis un fanatique d'informatique.</p>
+    
+    <h3>Mais j'aime par-dessus tout le sport :</h3>
+    <ul>
+        <li>Course à pied</li>
+        <li>Cyclisme</li>
+        <li>Skateboard</li>
+        <li>Danser sous la douche</li>
+    </ul>
+</body>
 </html>
-  
